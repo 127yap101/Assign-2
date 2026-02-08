@@ -3,88 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Portfolio</title>
+<title>Yash Parkhi | Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<nav>
-<h1 class="logo">MyPortfolio</h1>
+<div class="container">
+
+<!-- LEFT SIDEBAR -->
+<div class="sidebar">
+
+<div class="profile">
+<img src="images/profile.jpeg">
+<h2>Yash Parkhi</h2>
+<p class="role">Computer Science Engineer</p>
+</div>
+
+<div class="info">
+<p>📍 Pune, Maharashtra</p>
+<p>✉ yash.parkhi@email.com</p>
+<p>📞 +91-8484083127</p>
+</div>
+
+<h3>Tech Stack</h3>
+<div class="tags">
+<span>C++</span>
+<span>Python</span>
+<span>Java</span>
+<span>MySQL</span>
+<span>HTML</span>
+<span>VS Code</span>
+</div>
+
+<h3>Interests</h3>
 <ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
+<li>Machine Learning</li>
+<li>Software Development</li>
+<li>Problem Solving</li>
 </ul>
-</nav>
-</header>
 
-<section class="hero">
-
-<div class="hero-text">
-<h2>Hello, I'm <span>Yash</span></h2>
-<p>Computer Engineering Student | Web Enthusiast</p>
-<a href="#projects" class="btn">View Work</a>
 </div>
 
-<img src="images/a.jpeg" alt="Profile Photo" class="profile-img">
+<!-- RIGHT CONTENT -->
+<div class="main">
 
-</section>
+<h1>Projects</h1>
 
-<section id="about" class="card">
-<h2>About Me</h2>
-<p>
-I am a passionate computer engineering student interested in web development,
-UI design, and creative problem solving.
-</p>
-</section>
-
-<section id="skills" class="card">
-<h2>Skills</h2>
-
-<div class="skill-grid">
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">C++</div>
-<div class="skill">Database</div>
+<div class="card">
+<div class="card-header">
+<h2>Vehicle Renting System</h2>
+<span class="badge">C++ & MySQL</span>
+</div>
+<p>A console-based vehicle management system.</p>
+<ul>
+<li>Secure admin/customer modules</li>
+<li>Backend data handling with MySQL</li>
+<li>Vehicle tracking logic</li>
+</ul>
 </div>
 
-</section>
-
-<section id="projects" class="card">
-<h2>Projects</h2>
-
-<div class="project-grid">
-
-<div class="project">
-<h3>Portfolio Website</h3>
-<p>Modern responsive design.</p>
+<div class="card">
+<div class="card-header">
+<h2>Fake News Detection</h2>
+<span class="badge">Python ML</span>
+</div>
+<p>ML model to classify misinformation.</p>
+<ul>
+<li>TF-IDF vectorization</li>
+<li>Logistic regression classifier</li>
+<li>High accuracy testing</li>
+</ul>
 </div>
 
-<div class="project">
-<h3>Vehicle Rental System</h3>
-<p>C++ management system.</p>
+<h1>Education</h1>
+
+<div class="edu">
+<div>
+<h3>2023–2027</h3>
+<p>MIT World Peace University</p>
+<span>B.Tech Computer Science</span>
 </div>
 
-<div class="project">
-<h3>Database Mini Project</h3>
-<p>Student records DBMS.</p>
+<div>
+<h3>2021–2023</h3>
+<p>Suryadatta Public School</p>
+<span>HSE – Science</span>
+</div>
 </div>
 
 </div>
-</section>
 
-<section id="contact" class="card">
-<h2>Contact</h2>
-<p>Email: yash@example.com</p>
-</section>
-
-<footer>
-<p>© 2026 Student Portfolio</p>
-</footer>
+</div>
 
 </body>
 </html>
